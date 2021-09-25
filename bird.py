@@ -7,6 +7,6 @@ class Bird(arcade.AnimatedWalkingSprite):
         self.walk_left_textures = [arcade.load_texture('img/bird0.png'), arcade.load_texture('img/bird1.png')]
 
         self.center_x = w
-        self.center_y = h // 2 - 15.5
+        self.center_y = h // 2 - 10
         self.speed = s 
         self.change_x = -1 * self.speed
